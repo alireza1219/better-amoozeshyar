@@ -1,0 +1,70 @@
+/*
+ * Advanced Amoozeshyar
+*/
+
+@import url("./vazir/vazir-regular.css");
+
+* {
+  font-family: Vazir;
+}
+
+#loginTable {
+  background-image: linear-gradient(to right,#C9D6FF,#E2E2E2);
+  /* background-image: linear-gradient(to right,#D3CCE3,#E9E4F0);
+  background-image: linear-gradient(to right,#E0EAFC,#CFDEF3); */
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: unset;
+  -moz-box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+
+#loginform #text1 {
+  font-family: Vazir;
+}
+
+#loginform input {
+  font-family: Vazir;
+  margin-right: 6px;
+  border:1px solid #ced4da;
+  padding:.1rem .375rem;
+  background-clip:padding-box;
+  border-radius:.25rem;
+  -moz-border-radius:.25rem;
+  -webkit-border-radius:.25rem;
+}
+
+#loginform input#sendVC {
+  font-family: Vazir;
+}
+
+#loginform input#sendVCN {
+  font-family: Vazir;
+}
+
+#loginform input[type=submit] {
+  font-family: Vazir;
+}
+
+#organLogo {
+  -webkit-filter: drop-shadow(1px 1px 2px white);
+  filter: drop-shadow(1px 1px 2px white);
+}
+
+#captcha {
+  display: unset!important;
+}
+
+.mydialoge {
+  font-family: Vazir;
+}
+
+.btmText {
+  font-family: Vazir !important;
+}
+
+.besmeallah {
+  -webkit-filter: drop-shadow(5px 5px 2px #fff);
+  filter: drop-shadow(5px 5px 2px #fff);
+}

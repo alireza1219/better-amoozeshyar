@@ -1,0 +1,17 @@
+{
+
+  "description": "Enhancing your experience with amoozeshyar",
+  "manifest_version": 2,
+  "name": "advanced-amoozeshyar",
+  "version": "0.1",
+  "homepage_url": "https://github.com/alireza1219/advanced-amoozeshyar",
+
+  "content_scripts": [
+    {
+      "matches": ["*://stdn.iau.ac.ir/*"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ]
+  
+}
