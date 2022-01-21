@@ -12,6 +12,11 @@
       "css": ["style.css"],
       "run_at": "document_start",
       "all_frames": true
+    },
+    {
+      "matches": ["*://stdn.iau.ac.ir/Student/handleCourseClassSearchAction.do*",
+        "*://stdn.iau.ac.ir/Student/pSearchAction.do*"],
+      "js": ["correction.js"]
     }
   ]
   
