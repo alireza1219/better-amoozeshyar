@@ -10,7 +10,8 @@
     {
       "matches": ["*://stdn.iau.ac.ir/*"],
       "css": ["style.css"],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "all_frames": true
     }
   ]
   
