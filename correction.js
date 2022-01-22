@@ -6,7 +6,7 @@
 
 let a = document.getElementsByTagName("tbody");
 let b = document.createElement("span");
-b.className = "gradiantButton"
+b.className = "gradiantButton";
 b.innerHTML =
 '<button type="button" class="button"' +
 ' style="background-image: url(Pages/images/icons/sabte-darkhast.png);"' +
@@ -24,6 +24,5 @@ function cnameCorrection() {
     } else {
         inputValue = "%" + inputValue + "%";
         courseInput.value = inputValue.replace(/[\u06cc\u06a9\s]/g, "%");
-        console.log("I'm done correcting :^)");
     }
 }
