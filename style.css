@@ -48,6 +48,6 @@ tr a img {
   margin: 1px 5px;
 }
 
-#maincontent .heading .operational-menu, #maincontent .heading .misc-menu {
-  margin: 4.5px 0 0 10px;
+#mainmenu {
+  overflow: hidden!important;
 }
