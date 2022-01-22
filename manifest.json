@@ -3,7 +3,7 @@
   "description": "Enhancing your experience with amoozeshyar",
   "manifest_version": 2,
   "name": "advanced-amoozeshyar",
-  "version": "0.1",
+  "version": "0.2",
   "homepage_url": "https://github.com/alireza1219/advanced-amoozeshyar",
 
   "content_scripts": [
