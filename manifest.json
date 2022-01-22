@@ -17,6 +17,10 @@
       "matches": ["*://stdn.iau.ac.ir/Student/handleCourseClassSearchAction.do*",
         "*://stdn.iau.ac.ir/Student/pSearchAction.do*"],
       "js": ["correction.js"]
+    },
+    {
+      "matches": ["*://stdn.iau.ac.ir/Student/manageAccount"],
+      "js": ["cleartimer.js"]
     }
   ]
   
