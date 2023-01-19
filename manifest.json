@@ -8,18 +8,18 @@
 
   "content_scripts": [
     {
-      "matches": ["*://stdn.iau.ac.ir/*"],
+      "matches": ["*://stdn.iau.ir/*"],
       "css": ["style.css"],
       "run_at": "document_start",
       "all_frames": true
     },
     {
-      "matches": ["*://stdn.iau.ac.ir/Student/handleCourseClassSearchAction.do*",
-        "*://stdn.iau.ac.ir/Student/pSearchAction.do*"],
+      "matches": ["*://stdn.iau.ir/Student/handleCourseClassSearchAction.do*",
+        "*://stdn.iau.ir/Student/pSearchAction.do*"],
       "js": ["correction.js"]
     },
     {
-      "matches": ["*://stdn.iau.ac.ir/Student/manageAccount"],
+      "matches": ["*://stdn.iau.ir/Student/manageAccount"],
       "js": ["cleartimer.js"]
     }
   ]
