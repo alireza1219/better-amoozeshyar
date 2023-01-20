@@ -2,10 +2,10 @@
  * Advanced Amoozeshyar
  */
 
-@import url("./vazir/vazir-regular.css");
+@import url("./fonts/vazirmatn/vazirmatn-rd-regular.css");
 
-* {
-  font-family: Vazir!important;
+*, .btmText {
+  font-family: 'Vazirmatn RD'!important;
 }
 
 #loginTable {
@@ -19,7 +19,7 @@
 }
 
 #loginform input {
-  font-family: Vazir;
+  font-family: 'Vazirmatn RD';
   margin-right: 6px;
   border:1px solid #ced4da;
   padding:.1rem .375rem;
