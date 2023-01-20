@@ -34,14 +34,6 @@
   filter: drop-shadow(5px 5px 2px #fff);
 }
 
-#footer img {
-  display: none!important;
-}
-
-tr a img {
-  display: none;
-}
-
 .myautocompl {
   position: unset;
   width: unset;
