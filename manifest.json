@@ -3,7 +3,7 @@
   "description": "Enhancing your experience with amoozeshyar",
   "manifest_version": 2,
   "name": "advanced-amoozeshyar",
-  "version": "0.2",
+  "version": "0.3",
   "homepage_url": "https://github.com/alireza1219/advanced-amoozeshyar",
 
   "content_scripts": [
@@ -14,9 +14,12 @@
       "all_frames": true
     },
     {
-      "matches": ["*://stdn.iau.ir/Student/handleCourseClassSearchAction.do*",
-        "*://stdn.iau.ir/Student/pSearchAction.do*"],
+      "matches": ["*://stdn.iau.ir/Student/handleCourseClassSearchAction.do*"],
       "js": ["correction.js"]
+    },
+    {
+      "matches": ["*://stdn.iau.ir/Student/pSearchAction.do*"],
+      "js": ["correction.js", "csvexport.js"]
     },
     {
       "matches": ["*://stdn.iau.ir/Student/manageAccount"],
