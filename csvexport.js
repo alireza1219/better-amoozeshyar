@@ -1,5 +1,5 @@
 /**
- * Advanced Amoozeshyar
+ * Better Amoozeshyar
  * Filename: csvexport.js
  * Export the course table results as csv
  */

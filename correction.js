@@ -1,5 +1,5 @@
 /**
- * Advanced Amoozeshyar
+ * Better Amoozeshyar
  * Filename: correction.js
  * Correcting the course name before search
  */

@@ -1,4 +1,4 @@
-# advanced-amoozeshyar
+# Better Amoozeshyar
 
 Work in progress...
 

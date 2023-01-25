@@ -1,11 +1,18 @@
 {
-
-  "description": "Enhancing your experience with amoozeshyar",
-  "manifest_version": 2,
-  "name": "advanced-amoozeshyar",
+  "name": "Better Amoozeshyar",
+  "description": "A better user experience with amoozeshyar",
+  "homepage_url": "https://github.com/alireza1219/better-amoozeshyar",
   "version": "0.3",
-  "homepage_url": "https://github.com/alireza1219/advanced-amoozeshyar",
-
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "48.0"
+    }
+  },
+  "icons": {
+    "48": "img/icon-48.png",
+    "96": "img/icon-96.png"
+  },
   "content_scripts": [
     {
       "matches": ["*://stdn.iau.ir/*"],
@@ -26,5 +33,4 @@
       "js": ["cleartimer.js"]
     }
   ]
-  
 }

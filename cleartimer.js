@@ -1,5 +1,5 @@
 /**
- * Advanced Amoozeshyar
+ * Better Amoozeshyar
  * Filename: cleartimer.js
  * Skipping the countdown timer at the login time
  */
