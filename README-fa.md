@@ -1,7 +1,8 @@
+<!-- RTL -->
 <div dir="rtl">
 <!-- Logo -->
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/alireza1219/better-amoozeshyar">
     <img src="img/icon-96.png" alt="لوگوی آموزشیار بهتر">
   </a>
 
